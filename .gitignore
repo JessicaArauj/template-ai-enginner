@@ -1,0 +1,33 @@
+# Environments
+/.venv/
+/venv/
+/env/
+.env
+.env.*
+
+# Python cache/artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.python-version
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+.coverage
+.coverage.*
+.cache/
+
+# Editors/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Data
+script/python/__pycache__/
+script/python/*.pyc
