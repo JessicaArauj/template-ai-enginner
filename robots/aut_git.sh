@@ -52,7 +52,7 @@ prompt_commit_message() {
   local chosen="${COMMIT_TYPES[$((selection-1))]}"
   local type_token="${chosen%% *}"
 
-  read -rp "Scope (optional, e.g., hf-backend): " scope
+  read -rp "Scope (backend): " scope
   read -rp "Short summary: " summary
   summary="$(echo "$summary" | xargs)"
   if [[ -z "$summary" ]]; then
