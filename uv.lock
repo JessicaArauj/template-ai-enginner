@@ -2,11 +2,5 @@
 # Generated for the automation-of-feasibility-categorization project
 # All dependencies are pinned for reproducibility
 
-[[package]]
-
-requires = [
-    
-]
-
 
 # End of uv.lock file
